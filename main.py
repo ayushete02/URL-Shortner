@@ -18,18 +18,6 @@ def Convert():
         Short_link = s.clckru.short(link.get())
     elif url_type == "dagd":
         Short_link = s.dagd.short(link.get())
-    elif url_type == "gitio":
-        Short_link = s.gitio.short(link.get())
-    elif url_type == "isgd":
-        Short_link = s.isgd.short(link.get())
-    elif url_type == "osdb":
-        Short_link = s.osdb.short(link.get())
-    elif url_type == "owly":
-        Short_link = s.owly.short(link.get())
-    elif url_type == "post":
-        Short_link = s.post.short(link.get())
-    elif url_type == "qpsru":
-        Short_link = s.qpsru.short(link.get())
     else:
         Short_link = s.tinyurl.short(link.get())
 
@@ -43,12 +31,6 @@ options = [
 	"chilpit",
 	"clckru",
 	"dagd",
-	"gitio",
-	"isgd",
-	"osdb",
-	"owly",
-	"post",
-	"qpsru",
 	"tinyurl"
 ]
 
